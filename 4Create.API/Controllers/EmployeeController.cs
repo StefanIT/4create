@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _4Create.API.Controllers
 {
+	//[Authorize]
 	public class EmployeeController : ApiControllerBase
 	{
 		[HttpPost]
